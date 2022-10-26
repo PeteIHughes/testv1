@@ -1,0 +1,97 @@
+/* body light mode */
+body.light {
+  background-color: hsl(216, 2%, 80%) !important;
+  color: hsl(0, 0%, 20%) !important;
+}
+
+/* body dark mode */
+body.dark {
+  background-color: hsl(216, 2%, 20%) !important;
+  color: hsl(0, 0%, 80%) !important;
+}
+
+/* app bar light mode */
+body.light .css-11b3ww9-MuiPaper-root-MuiAppBar-root,
+body.light .css-1kkpk3h-MuiButtonBase-root-MuiButton-root {
+  background-color: hsl(210, 92%, 66%) !important;
+  color: hsl(0, 0%, 14%) !important;
+}
+
+/* app bar dark mode */
+body.dark .css-11b3ww9-MuiPaper-root-MuiAppBar-root,
+body.dark .css-1kkpk3h-MuiButtonBase-root-MuiButton-root {
+  background-color: hsl(210, 92%, 26%) !important;
+  color: hsl(0, 0%, 76%) !important;
+}
+
+/* mode switch */
+/* background unchecked */
+body.light .css-1yjjitx-MuiSwitch-track {
+  background-color: hsl(300, 3%, 94%) !important;
+}
+
+/* background checked */
+body.light
+  .css-priqlz-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked
+  + .MuiSwitch-track {
+  background-color: hsl(300, 3%, 28%) !important;
+}
+
+/* pill unchecked */
+.css-priqlz-MuiButtonBase-root-MuiSwitch-switchBase {
+  color: hsl(213, 88%, 43%) !important;
+}
+
+/* pill checked */
+.css-priqlz-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked.Mui-checked {
+  color: hsl(213, 88%, 23%) !important;
+}
+
+/* pill hover light */
+body.light .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase:hover {
+  color: hsl(213, 88%, 33%) !important;
+}
+
+/* pill hover dark */
+body.dark .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase:hover {
+  color: hsl(213, 88%, 73%) !important;
+}
+
+/* links */
+/* active light */
+body.light .pageActive .css-1kkpk3h-MuiButtonBase-root-MuiButton-root {
+  color: hsl(0, 0%, 92%) !important;
+  background-color: hsl(213, 88%, 44%) !important;
+  /*  display: none; */
+}
+
+/* active hover light */
+body.light .pageActive .css-1kkpk3h-MuiButtonBase-root-MuiButton-root:hover {
+  color: hsl(0, 0%, 92%) !important;
+  background-color: hsl(213, 88%, 27%) !important;
+}
+
+/* not active hover light */
+body.light .pageNotActive .css-1kkpk3h-MuiButtonBase-root-MuiButton-root:hover {
+  color: hsl(0, 0%, 92%) !important;
+  background-color: hsl(213, 88%, 58%) !important;
+}
+
+/* active dark */
+body.dark .pageActive .css-1kkpk3h-MuiButtonBase-root-MuiButton-root {
+  color: hsl(0, 0%, 92%) !important;
+  background-color: hsl(213, 88%, 11%) !important;
+  /*  display: none; */
+}
+
+/* active hover dark */
+body.dark .pageActive .css-1kkpk3h-MuiButtonBase-root-MuiButton-root:hover {
+  color: hsl(0, 0%, 92%) !important;
+  background-color: hsl(213, 88%, 37%) !important;
+}
+
+/* not active hover dark */
+body.dark .pageNotActive .css-1kkpk3h-MuiButtonBase-root-MuiButton-root:hover {
+  color: hsl(0, 0%, 92%) !important;
+  background-color: hsl(213, 88%, 55%) !important;
+}

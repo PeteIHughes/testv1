@@ -1,0 +1,37 @@
+OK - hide menu page item when on that page
+
+OK - link hover color
+
+parameterize colors
+
+darkmode switch hover hilite
+
+OK - menu page item button width not consistent
+
+mode switch hover color
+
+mode switch spacing
+
+OK - switch label operates switch,
+but does not change mode
+
+switch changes back to dark position
+after f5 refresh, but does not change
+mode
+
+need to include 3 <Routes. 1 for each page
+would like to do it via a loop
+
+OK - active page class not changing for home
+
+burger menu does nothing
+
+change navbar to appbar
+
+appbar title
+
+appbar title spacing
+
+appbar settings
+
+other appbar icons?
